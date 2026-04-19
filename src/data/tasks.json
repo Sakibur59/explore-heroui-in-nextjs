@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Complete React Assignment",
+    "description": "Finish building the task manager UI using React components.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-04-22"
+  },
+  {
+    "id": 2,
+    "title": "Study Digital Logic Design",
+    "description": "Revise combinational circuits and adders for exam.",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "title": "Push Project to GitHub",
+    "description": "Upload Travel Booking System project with proper README.",
+    "status": "completed",
+    "priority": "medium",
+    "dueDate": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "title": "Fix Navbar Responsiveness",
+    "description": "Adjust Tailwind classes for mobile and tablet view.",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-21"
+  },
+  {
+    "id": 5,
+    "title": "Prepare Presentation Slides",
+    "description": "Create slides for OOP Implementation seminar.",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "title": "Practice SQL Queries",
+    "description": "Work on JOIN, GROUP BY, and stored procedures.",
+    "status": "pending",
+    "priority": "low",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 7,
+    "title": "Debug Attendance System",
+    "description": "Fix server error while submitting attendance.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "title": "Learn JWT Authentication",
+    "description": "Understand token generation and validation in Spring Boot.",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-27"
+  }
+]
