@@ -1,7 +1,18 @@
 "use client";
 
 import { CirclePlus } from "@gravity-ui/icons";
-import { Button, Input, Label, Modal, Surface, TextField,ListBox, Select } from "@heroui/react";
+import {
+  Button,
+  Input,
+  Label,
+  Modal,
+  Surface,
+  TextField,
+  ListBox,
+  Select,
+  FieldError,
+  Form
+} from "@heroui/react";
 
 export function AddTask({ createATask }) {
   return (
@@ -19,16 +30,32 @@ export function AddTask({ createATask }) {
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
-                <form action={createATask} className="flex flex-col gap-4">
-                  <TextField className="w-full" name="title" type="text">
+                <Form action={createATask} className="flex flex-col gap-4">
+                  <TextField
+                    isRequired
+                    minLength={5}
+                    validate={(value) => {
+                      if (value.length < 8) {
+                        return "Title Must be at 5 character or longer";
+                      }
+                    }}
+                    className="w-full"
+                    name="title"
+                    type="text"
+                  >
                     <Label>Title</Label>
                     <Input placeholder="Enter your Task Title" />
+                    <FieldError></FieldError>
                   </TextField>
                   <TextField className="w-full" name="description" type="text">
                     <Label>Description</Label>
                     <Input placeholder="Enter your task description" />
                   </TextField>
-                  <Select name="priority" className="w-[256px]" placeholder="Select one">
+                  <Select
+                    name="priority"
+                    className="w-[256px]"
+                    placeholder="Select one"
+                  >
                     <Label>Priority</Label>
                     <Select.Trigger>
                       <Select.Value />
@@ -51,7 +78,11 @@ export function AddTask({ createATask }) {
                       </ListBox>
                     </Select.Popover>
                   </Select>
-                  <Select name="status" className="w-[256px]" placeholder="Select one">
+                  <Select
+                    name="status"
+                    className="w-[256px]"
+                    placeholder="Select one"
+                  >
                     <Label>Status</Label>
                     <Select.Trigger>
                       <Select.Value />
@@ -74,7 +105,7 @@ export function AddTask({ createATask }) {
                       </ListBox>
                     </Select.Popover>
                   </Select>
-                  
+
                   <TextField className="w-full" name="assignedTo">
                     <Label>Assigned To </Label>
                     <Input placeholder="Task AssignTo" />
@@ -87,7 +118,7 @@ export function AddTask({ createATask }) {
                       Submit Task
                     </Button>
                   </Modal.Footer>
-                </form>
+                </Form>
               </Surface>
             </Modal.Body>
           </Modal.Dialog>
