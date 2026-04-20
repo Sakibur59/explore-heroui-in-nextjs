@@ -5,6 +5,7 @@
     "description": "Finish building the task manager UI using React components.",
     "status": "in-progress",
     "priority": "high",
+    "assignedTo": "Fardin",
     "dueDate": "2026-04-22"
   },
   {
@@ -13,6 +14,7 @@
     "description": "Revise combinational circuits and adders for exam.",
     "status": "pending",
     "priority": "high",
+    "assignedTo": "Fardin",
     "dueDate": "2026-04-20"
   },
   {
@@ -21,6 +23,7 @@
     "description": "Upload Travel Booking System project with proper README.",
     "status": "completed",
     "priority": "medium",
+    "assignedTo": "Sakib",
     "dueDate": "2026-04-18"
   },
   {
@@ -29,6 +32,7 @@
     "description": "Adjust Tailwind classes for mobile and tablet view.",
     "status": "in-progress",
     "priority": "medium",
+    "assignedTo": "Rahim",
     "dueDate": "2026-04-21"
   },
   {
@@ -37,6 +41,7 @@
     "description": "Create slides for OOP Implementation seminar.",
     "status": "pending",
     "priority": "high",
+    "assignedTo": "Fardin",
     "dueDate": "2026-04-25"
   },
   {
@@ -45,6 +50,7 @@
     "description": "Work on JOIN, GROUP BY, and stored procedures.",
     "status": "pending",
     "priority": "low",
+    "assignedTo": "Nayeem",
     "dueDate": "2026-04-28"
   },
   {
@@ -53,6 +59,7 @@
     "description": "Fix server error while submitting attendance.",
     "status": "in-progress",
     "priority": "high",
+    "assignedTo": "Fardin",
     "dueDate": "2026-04-19"
   },
   {
@@ -61,6 +68,7 @@
     "description": "Understand token generation and validation in Spring Boot.",
     "status": "pending",
     "priority": "medium",
+    "assignedTo": "Karim",
     "dueDate": "2026-04-27"
   }
 ]
